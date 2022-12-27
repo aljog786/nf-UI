@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#div0{
+    background-size: cover;
+    background-image: url("../assets/divmain.png");
+}
+.logo>img{
+max-width: 65%;   
+}
+#btnEng1{
+    max-height: 1.5rem;
+    min-width: 5rem;
+    border-radius: 0;
+    font-size: 12px;
+}
+#btnSI{
+    max-height: 1.5rem;
+    min-width: 4rem;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.ht-50{
+    height: 50%;
+}
+#floatingInput1,#floatingInput2,#getSbtn{
+border-radius: 0;
+}
+
+.flex-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+#getSbtn>img{
+    width: 5.03px;
+    height: 10.62px;
+}
+.bgBlack{
+    background-size: cover;
+    background-color: black;
+}
+.hPlus{
+    height: 1rem;
+}
+#div3{
+    font-size: 12px;
+}
+#btnEng2{
+    width:7rem;
+    border-radius: 0;
+    border-color: #adb5bd;
+    color: white;
+    background: none;
+}
+@media (max-width: 767px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .flex-item-right{
+        margin-top: 1rem;
+    }
+  }
