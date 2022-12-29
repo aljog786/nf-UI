@@ -10,7 +10,7 @@ body{
     background-image: url("../assets/divmain.png");
 }
 .logo>img{
-max-width: 65%;   
+max-width: 60%;   
 }
 #btnEng1{
     max-height: 1.5rem;
@@ -22,12 +22,22 @@ max-width: 65%;
     max-height: 1.5rem;
     min-width: 4rem;
     font-size: 12px;
-    border-radius: 5px;
+    border-radius: 2px;
+}
+
+.fs-26{
+    font-size: 26px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-16{
+    font-size: 16px;
 }
 .ht-50{
     height: 50%;
 }
-#floatingInput1,#floatingInput2,#getSbtn{
+#floatingInput,#getSbtn{
 border-radius: 0;
 }
 
@@ -45,6 +55,9 @@ border-radius: 0;
     background-size: cover;
     background-color: black;
 }
+#accordion>p{
+    font-size: 18px;
+}
 .hPlus{
     height: 1rem;
 }
@@ -59,10 +72,88 @@ border-radius: 0;
     background: none;
 }
 @media (max-width: 767px) {
+    #mainDiv>h1{
+    width: 75%;
+}
     .flex-container {
       flex-direction: column;
     }
     .flex-item-right{
         margin-top: 1rem;
     }
+    #floatingInput{
+        height: 3rem;
+    }
   }
+  @media (min-width:768px) and (max-width:1024px){
+    .logo>img{
+        max-width: 80%;
+    }
+
+    #div0{
+        height: 100vh;
+    }
+    #btnEng1{
+        max-height: 2rem;
+        min-width: 6.5rem;
+        border-radius: 0;
+        font-size: 12px;
+    }
+    #btnSI{
+        max-height: 2rem;
+        min-width: 5rem;
+        font-size: 12px;
+        border-radius: 2px;
+    }
+    .w75{
+        width: 75%;
+        }
+    .fs-25{
+        font-size: 25px;
+    }
+    .fs-50{
+        font-size: 50px;
+    }
+    .fs-20{
+        font-size: 20px;
+    }
+    .aP-fs26{
+        font-size: 26px;
+    }
+ }
+ @media (min-width:1025px) and (max-width:1200px) {
+    .logo>img{
+        max-width: 100%;
+    }
+
+    #div0{
+        height: 100vh;
+    }
+    #btnEng1{
+        max-height: 2rem;
+        min-width: 6.5rem;
+        border-radius: 0;
+        font-size: 12px;
+    }
+    #btnSI{
+        max-height: 2rem;
+        min-width: 5rem;
+        font-size: 12px;
+        border-radius: 2px;
+    }  
+    .w75{
+        width: 75%;
+        }
+    .fs-60{
+        font-size: 60px;
+    }
+    .fs-50{
+        font-size: 50px;
+    } 
+    .fs-25{
+        font-size: 25px;
+    }  
+    .fs-20{
+        font-size: 20px;
+    }
+ }
